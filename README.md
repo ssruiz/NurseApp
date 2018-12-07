@@ -1,7 +1,7 @@
 # NurseApp
 Nurse aplication made on VB.NET
 
----------------------- Requeriments-------------------------
+Requeriments
 1- A Mysql server
   Require to create two users on localhost:
   User for nurse
