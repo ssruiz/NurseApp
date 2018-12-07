@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="NurseApp" Title="NurseApp Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.AddRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000A.html" LinkGroup="NurseApp">AddRecord Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.AddRecord.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000C_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.EditPatient.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000F_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.HomeNurse.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000003_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.HomePatient.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000005_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.Login.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000007_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.NewPatient.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000011_overloads--.html" LinkGroup="NurseApp">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.EditPatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000D.html" LinkGroup="NurseApp">EditPatient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.Functions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000000.html" LinkGroup="NurseApp">Functions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.HomeNurse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000002.html" LinkGroup="NurseApp">HomeNurse Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.HomePatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000004.html" LinkGroup="NurseApp">HomePatient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000006.html" LinkGroup="NurseApp">Login Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.NewPatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000010.html" LinkGroup="NurseApp">NewPatient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000013.html" LinkGroup="NurseApp">NurseApp Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000012.html" LinkGroup="NurseApp">NurseApp Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.Functions.justNumbers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_0000000000000001.html" LinkGroup="NurseApp">justNumbers Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.AddRecord.patient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000B.html" LinkGroup="NurseApp">patient Field {NurseApp.AddRecord}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="NurseApp.EditPatient.patient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:NurseApp.chm::/topic_000000000000000E.html" LinkGroup="NurseApp">patient Field {NurseApp.EditPatient}</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

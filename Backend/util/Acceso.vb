@@ -1,7 +1,9 @@
 ﻿Imports MySql.Data.MySqlClient
-
-
+''' <summary>This class controls the acces to the database</summary>
 Public Class Acceso
+    ''' <summary>Method login to connect to database</summary>
+    ''' <param name="user"> Name of the user</param>
+    ''' <param name="passwd">Password</param>
     Public Sub login(ByVal user As String, ByVal passwd As String)
 
         Try

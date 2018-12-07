@@ -27,7 +27,7 @@ CREATE TABLE `patiente` (
   `bloodp_patiente` int(11) DEFAULT NULL,
   `heartrate_patiente` int(11) DEFAULT NULL,
   PRIMARY KEY (`id_patiente`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `patientrecord` */
 
@@ -71,6 +71,20 @@ DROP TABLE IF EXISTS `listpatients`;
  `Initial Heart rate` int(11) 
 )*/;
 
+/*Table structure for table `recordspatient` */
+
+DROP TABLE IF EXISTS `recordspatient`;
+
+/*!50001 DROP VIEW IF EXISTS `recordspatient` */;
+/*!50001 DROP TABLE IF EXISTS `recordspatient` */;
+
+/*!50001 CREATE TABLE  `recordspatient`(
+ `ID` int(11) ,
+ `Blood Pressure` int(11) ,
+ `Hear Rate` int(11) ,
+ `Date Registered` timestamp 
+)*/;
+
 /*View structure for view currentvitals */
 
 /*!50001 DROP TABLE IF EXISTS `currentvitals` */;
@@ -84,6 +98,13 @@ DROP TABLE IF EXISTS `listpatients`;
 /*!50001 DROP VIEW IF EXISTS `listpatients` */;
 
 /*!50001 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `listpatients` AS (select `patiente`.`id_patiente` AS `ID`,`patiente`.`name_patiente` AS `Name`,`patiente`.`age_patiente` AS `Age`,`patiente`.`bloodp_patiente` AS `Initial Blood Pressure`,`patiente`.`heartrate_patiente` AS `Initial Heart rate` from `patiente`) */;
+
+/*View structure for view recordspatient */
+
+/*!50001 DROP TABLE IF EXISTS `recordspatient` */;
+/*!50001 DROP VIEW IF EXISTS `recordspatient` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `recordspatient` AS (select `patientrecord`.`id_patient` AS `ID`,`patientrecord`.`bloodp` AS `Blood Pressure`,`patientrecord`.`heartrate` AS `Hear Rate`,`patientrecord`.`date` AS `Date Registered` from `patientrecord`) */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

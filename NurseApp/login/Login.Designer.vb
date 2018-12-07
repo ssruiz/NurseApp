@@ -25,6 +25,7 @@ Partial Class Login
         Me.btnNurse = New System.Windows.Forms.Button()
         Me.btnPatiente = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnNurse
@@ -59,6 +60,15 @@ Partial Class Login
         Me.Label1.Text = "Login as:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(168, 281)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(109, 37)
+        Me.btnExit.TabIndex = 0
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -67,6 +77,7 @@ Partial Class Login
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnPatiente)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnNurse)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Login"
@@ -80,4 +91,5 @@ Partial Class Login
     Friend WithEvents btnNurse As Button
     Friend WithEvents btnPatiente As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnExit As Button
 End Class

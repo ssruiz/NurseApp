@@ -44,7 +44,7 @@
     <OptionStrict>Off</OptionStrict>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionInfer>On</OptionInfer>
+    <OptionInfer>Off</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
@@ -79,6 +79,12 @@
       <DependentUpon>HomeNurse.vb</DependentUpon>
     </Compile>
     <Compile Include="home\HomeNurse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home\HomePatient.Designer.vb">
+      <DependentUpon>HomePatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home\HomePatient.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login\Login.Designer.vb">
@@ -125,6 +131,9 @@
     <EmbeddedResource Include="home\HomeNurse.resx">
       <DependentUpon>HomeNurse.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="home\HomePatient.resx">
+      <DependentUpon>HomePatient.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -163,7 +172,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="database\db.sql" />
+    <Content Include="database\dbmysql.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

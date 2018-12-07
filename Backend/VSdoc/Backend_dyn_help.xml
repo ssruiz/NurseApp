@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Backend" Title="Backend Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Acceso" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000010.html" LinkGroup="Backend">Acceso Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000001E.html" LinkGroup="Backend">Backend Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000001D.html" LinkGroup="Backend">Backend Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.ConexionDB" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000012.html" LinkGroup="Backend">ConexionDB Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.DAOException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000014.html" LinkGroup="Backend">DAOException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.DAOException.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000015.html" LinkGroup="Backend">DAOException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000016.html" LinkGroup="Backend">Funcitions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000008.html" LinkGroup="Backend">Patient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000000.html" LinkGroup="Backend">PatienteDAO Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetDate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000001A.html" LinkGroup="Backend">SafeGetDate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetDecimal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000001C.html" LinkGroup="Backend">SafeGetDecimal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000001B.html" LinkGroup="Backend">SafeGetDouble Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetInt" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000018.html" LinkGroup="Backend">SafeGetInt Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000017.html" LinkGroup="Backend">SafeGetString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Funcitions.SafeGetTimeSpam" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000019.html" LinkGroup="Backend">SafeGetTimeSpam Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient.age" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000000B.html" LinkGroup="Backend">age Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient.bloodPressure" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000000C.html" LinkGroup="Backend">bloodPressure Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.ConexionDB.cadenaConexionBD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000013.html" LinkGroup="Backend">cadenaConexionBD Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.currentVitals" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000006.html" LinkGroup="Backend">currentVitals Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.delete" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000004.html" LinkGroup="Backend">delete Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient.hearRate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000000D.html" LinkGroup="Backend">hearRate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient.id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000009.html" LinkGroup="Backend">id Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.loadPatient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000007.html" LinkGroup="Backend">loadPatient Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.loadPatients" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000001.html" LinkGroup="Backend">loadPatients Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Acceso.login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000011.html" LinkGroup="Backend">login Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.Patient.name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_000000000000000A.html" LinkGroup="Backend">name Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.newRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000005.html" LinkGroup="Backend">newRecord Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.save" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000002.html" LinkGroup="Backend">save Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Backend.PatienteDAO.update" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Backend.chm::/topic_0000000000000003.html" LinkGroup="Backend">update Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

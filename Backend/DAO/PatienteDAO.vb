@@ -1,6 +1,8 @@
 ﻿Imports MySql.Data.MySqlClient
 
+''' <summary>Data Acces Object for the Patient entity</summary>
 Public Class PatienteDAO
+    ''' <summary>Methods that load all the patients</summary>
     Public Function loadPatients() As DataSet
         Dim ds As New DataSet
         Dim adp
@@ -21,6 +23,8 @@ Public Class PatienteDAO
         End Try
         Return adp
     End Function
+    ''' <summary>Method that saves a new patient, also create a record for that patient</summary>
+    ''' <param name="patient"></param>
     Public Sub save(ByVal patient As Patient)
         Dim id = 0
         Try
@@ -52,6 +56,8 @@ Public Class PatienteDAO
 
     End Sub
 
+    ''' <summary>method that updates a patient information</summary>
+    ''' <param name="patient"></param>
     Public Sub update(ByVal patient As Patient)
         Dim id = 0
         Try
@@ -76,6 +82,8 @@ Public Class PatienteDAO
 
     End Sub
 
+    ''' <summary>Method that deletes a patient from database</summary>
+    ''' <param name="patient"></param>
     Public Sub delete(ByVal patient As Integer)
         Dim id = 0
         Try
@@ -99,6 +107,8 @@ Public Class PatienteDAO
 
     End Sub
 
+    ''' <summary>Method that adds a new record for a specific patient</summary>
+    ''' <param name="patient"></param>
     Public Sub newRecord(ByVal patient As Patient)
         Dim id = 0
         Try
@@ -122,6 +132,8 @@ Public Class PatienteDAO
 
     End Sub
 
+    ''' <summary>Method that gets the last record of vitals saved in database for a patient</summary>
+    ''' <param name="patient"></param>
     Public Function currentVitals(ByVal patient As Integer) As Patient
         Dim ds As New DataSet
         Dim adp
@@ -142,5 +154,36 @@ Public Class PatienteDAO
         Catch ex As Exception
             Throw New DAOException(ex.ToString)
         End Try
+    End Function
+
+    ''' <summary>Method that loads all history of vitals from a patient</summary>
+    ''' <param name="name"></param>
+    Public Function loadPatient(ByVal name As String) As DataSet
+        Dim ds As New DataSet
+        Dim adp
+        Try
+            Dim id = 0
+            Dim con As New MySqlConnection(ConexionDB.cadenaConexionBD("patient", "passpatient"))
+            con.Open()
+            Dim query = "SELECT `id_patiente` FROM `nurseappdb`.`patiente` Where `name_patiente`=@name;"
+            Dim cmd As New MySqlCommand(query, con)
+            cmd.Parameters.AddWithValue("@name", name)
+            Dim reader = cmd.ExecuteReader()
+            While reader.Read
+                id = SafeGetInt(reader, 0)
+            End While
+            con.Close()
+            con = New MySqlConnection(ConexionDB.cadenaConexionBD("patient", "passpatient"))
+            Dim queryList = "SELECT * FROM recordspatient where ID = " & id & ";"
+            adp = New MySqlDataAdapter(queryList, con)
+            ds.Tables.Add("tabla")
+            adp.Fill(ds.Tables("tabla"))
+            con.Close()
+            Return ds
+
+        Catch ex As Exception
+            Throw New DAOException(ex.ToString)
+        End Try
+        Return adp
     End Function
 End Class
