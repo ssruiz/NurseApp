@@ -25,5 +25,5 @@ Requeriments
     
     
     
-It can be mount on visual studio IDE or a I create a setup , it is on NurseApp\SetupProject\Debug in order to install it. 
+It can be mount on visual studio IDE or a I create a setup , it is on https://drive.google.com/drive/folders/1HdqDKCWYAqc0efhf3P9fFqwPKAvizgOe?usp=sharing in order to install it. 
 It works but make sure to have mysql server installed
