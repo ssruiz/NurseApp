@@ -29,7 +29,7 @@ Partial Class Login
         '
         'btnNurse
         '
-        Me.btnNurse.Location = New System.Drawing.Point(82, 165)
+        Me.btnNurse.Location = New System.Drawing.Point(81, 194)
         Me.btnNurse.Name = "btnNurse"
         Me.btnNurse.Size = New System.Drawing.Size(109, 37)
         Me.btnNurse.TabIndex = 0
@@ -38,7 +38,7 @@ Partial Class Login
         '
         'btnPatiente
         '
-        Me.btnPatiente.Location = New System.Drawing.Point(248, 165)
+        Me.btnPatiente.Location = New System.Drawing.Point(247, 194)
         Me.btnPatiente.Name = "btnPatiente"
         Me.btnPatiente.Size = New System.Drawing.Size(109, 37)
         Me.btnPatiente.TabIndex = 1
@@ -48,10 +48,13 @@ Partial Class Login
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(159, 68)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(-47, 55)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(124, 31)
+        Me.Label1.Padding = New System.Windows.Forms.Padding(200, 5, 200, 5)
+        Me.Label1.Size = New System.Drawing.Size(524, 41)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Login as:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -61,10 +64,11 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(442, 340)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnPatiente)
         Me.Controls.Add(Me.btnNurse)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class NewPatient
+Partial Class AddRecord
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,7 +22,6 @@ Partial Class NewPatient
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.lblPatients = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtHR = New System.Windows.Forms.TextBox()
         Me.txtBP = New System.Windows.Forms.TextBox()
@@ -34,21 +33,9 @@ Partial Class NewPatient
         Me.lblName = New System.Windows.Forms.Label()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.lblPatients = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'lblPatients
-        '
-        Me.lblPatients.AutoSize = True
-        Me.lblPatients.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lblPatients.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPatients.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.lblPatients.Location = New System.Drawing.Point(16, 23)
-        Me.lblPatients.Name = "lblPatients"
-        Me.lblPatients.Padding = New System.Windows.Forms.Padding(200, 5, 200, 5)
-        Me.lblPatients.Size = New System.Drawing.Size(539, 32)
-        Me.lblPatients.TabIndex = 4
-        Me.lblPatients.Text = "NEW PATIENT"
         '
         'GroupBox1
         '
@@ -62,12 +49,12 @@ Partial Class NewPatient
         Me.GroupBox1.Controls.Add(Me.lblName)
         Me.GroupBox1.Controls.Add(Me.btnCancel)
         Me.GroupBox1.Controls.Add(Me.btnSave)
-        Me.GroupBox1.Location = New System.Drawing.Point(49, 68)
+        Me.GroupBox1.Location = New System.Drawing.Point(70, 70)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(463, 251)
-        Me.GroupBox1.TabIndex = 5
+        Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Add New Patient"
+        Me.GroupBox1.Text = "Add New Record Patient"
         '
         'txtHR
         '
@@ -92,6 +79,7 @@ Partial Class NewPatient
         '
         'txtName
         '
+        Me.txtName.Enabled = False
         Me.txtName.Location = New System.Drawing.Point(166, 50)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(221, 20)
@@ -155,17 +143,31 @@ Partial Class NewPatient
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
-        'NewPatient
+        'lblPatients
+        '
+        Me.lblPatients.AutoSize = True
+        Me.lblPatients.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.lblPatients.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPatients.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lblPatients.Location = New System.Drawing.Point(-8, 23)
+        Me.lblPatients.Name = "lblPatients"
+        Me.lblPatients.Padding = New System.Windows.Forms.Padding(200, 5, 200, 5)
+        Me.lblPatients.Size = New System.Drawing.Size(626, 32)
+        Me.lblPatients.TabIndex = 6
+        Me.lblPatients.Text = "NEW PATIENT RECORD"
+        '
+        'AddRecord
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(567, 361)
+        Me.ClientSize = New System.Drawing.Size(604, 369)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblPatients)
-        Me.Name = "NewPatient"
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Name = "AddRecord"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "NewPatient"
+        Me.Text = "AddRecord"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
@@ -173,7 +175,6 @@ Partial Class NewPatient
 
     End Sub
 
-    Friend WithEvents lblPatients As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents txtHR As TextBox
     Friend WithEvents txtBP As TextBox
@@ -185,4 +186,5 @@ Partial Class NewPatient
     Friend WithEvents lblName As Label
     Friend WithEvents btnCancel As Button
     Friend WithEvents btnSave As Button
+    Friend WithEvents lblPatients As Label
 End Class

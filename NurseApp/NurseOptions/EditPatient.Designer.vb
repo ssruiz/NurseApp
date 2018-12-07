@@ -156,10 +156,13 @@ Partial Class EditPatient
         'lblPatients
         '
         Me.lblPatients.AutoSize = True
+        Me.lblPatients.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.lblPatients.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPatients.Location = New System.Drawing.Point(228, 29)
+        Me.lblPatients.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lblPatients.Location = New System.Drawing.Point(28, 29)
         Me.lblPatients.Name = "lblPatients"
-        Me.lblPatients.Size = New System.Drawing.Size(141, 22)
+        Me.lblPatients.Padding = New System.Windows.Forms.Padding(200, 5, 200, 5)
+        Me.lblPatients.Size = New System.Drawing.Size(541, 32)
         Me.lblPatients.TabIndex = 6
         Me.lblPatients.Text = "EDIT PATIENT"
         '
@@ -168,9 +171,14 @@ Partial Class EditPatient
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(595, 377)
+        Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblPatients)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "EditPatient"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "EditPatient"
         Me.GroupBox1.ResumeLayout(False)

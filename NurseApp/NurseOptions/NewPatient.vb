@@ -19,8 +19,11 @@ Public Class NewPatient
 
             Dim daoPatient As New PatienteDAO
             daoPatient.save(patient)
-            MsgBox("Patient added")
+            MsgBox("Patient added", MsgBoxStyle.Information)
             Me.DialogResult = DialogResult.OK
+        Else
+            MsgBox("Complete all the inputs", MsgBoxStyle.Critical)
+
         End If
     End Sub
 
