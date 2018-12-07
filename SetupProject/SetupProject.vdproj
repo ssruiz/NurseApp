@@ -359,9 +359,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:SetupProject"
+        "ProductName" = "8:NurseApp"
         "ProductCode" = "8:{CCDC6977-6D28-42CD-8738-84AA78E47E2D}"
-        "PackageCode" = "8:{05974DB7-9EAF-4305-A9EF-501846FDE228}"
+        "PackageCode" = "8:{CA0D87DB-3074-4334-9B6C-E3B6A550D419}"
         "UpgradeCode" = "8:{84AAB2D7-BA2E-42EF-8199-AAFEE3260ADF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
